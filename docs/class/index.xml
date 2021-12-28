@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>我不知道 on  yachun </title>
+    <link>https://lin68215.github.io/class.html</link>
+    <description>Recent content in 我不知道 on  yachun </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://lin68215.github.io/class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jsil</title>
+      <link>https://lin68215.github.io/class/jsil.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lin68215.github.io/class/jsil.html</guid>
+      <description>console.log(&#34;我是主控台&#34;)document.write (&#34;我是HTML文件&#34;)後面是程式碼執行結果 console.log(&#34;我是主控台&#34;)document.write (&#34;我是HTML文件&#34;)什麼是javascript 函數 function print(){message = &#34;HELLO cat&#34;console.log(message)}function print1(){message = &#34;HELLO 1&#34;console.log(message)}function print2(){message = &#34;HELLO 2&#34;console.log(message)}function add1(arg1){result = arg1+1return(result)}</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,68 @@
+---
+title: cal
+---
+<!-- saved from url=(0077)https://airbone4.github.io/classweb/javascript/part10app/phonegap/preset.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+#scr{
+width:93% ;
+background-color: #9e9e9ea8;;
+}
+.common{
+background-color: #80808080;
+width: 22% ;
+padding: 0px;
+border: none;
+}
+.special{
+background-color: #5c87c3cf;
+width: 22%;
+padding: 0px;
+border: none;
+}
+.special.equ{
+background: url(http://i47.tinypic.com/2ni0ahd.png) no-repeat;
+background-size: cover;}
+
+ 
+</style>
+<script>
+function donumber(e){
+scr.value=scr.value+e.value
+}
+function clearscr()
+{
+scr.value=""
+}
+function doequ()
+{ 
+temp= eval(scr.value)
+scr.value = temp.toPrecision(15)
+ }
+</script>
+</head>
+<body>
+ <input type="textarea" id="scr"><br/>
+ <input type="button" class="special" value="(" onclick="donumber(this)">
+ <input type="button" class="special" value=")" onclick="donumber(this)"> 
+ <input type="button" class="special" value="%" onclick="donumber(this)"> 
+ <input type="button" class="special" value="C" onclick="clearscr()"> <br/>
+ <input type="button" class="common" value="7" onclick="donumber(this)"> 
+ <input type="button" class="common" value="8" onclick="donumber(this)">
+ <input type="button" class="common" value="9" onclick="donumber(this)"> 
+ <input type="button" class="special" value="/" onclick="donumber(this)"> <br/>
+  <input type="button"class="common" value="4" onclick="donumber(this)"> 
+ <input type="button" class="common" value="5" onclick="donumber(this)"> 
+ <input type="button" class="common" value="6" onclick="donumber(this)"> 
+ <input type="button" class="special" value="*" onclick="donumber(this)"> <br/>
+ <input type="button" class="common" value="1" onclick="donumber(this)">
+ <input type="button" class="common" value="2" onclick="donumber(this)"> 
+ <input type="button" class="common" value="3" onclick="donumber(this)"> 
+ <input type="button" class="special" value="-" onclick="donumber(this)"> <br/>
+ <input type="button" class="common" value="0" onclick="donumber(this)"> 
+ <input type="button" class="common" value="." onclick="donumber(this)"> 
+ <input type="button" class="special equ" value="=" onclick="doequ()"> 
+ <input type="button" class="special" value="+" onclick="donumber(this)">    
+  
+
+</body></html>

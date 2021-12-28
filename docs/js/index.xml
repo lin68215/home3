@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://lin68215.github.io/js/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>cal</title>
+      <link>https://lin68215.github.io/js/cal.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lin68215.github.io/js/cal.html</guid>
+      <description> #scr{ width:93% ; background-color: #9e9e9ea8;; } .common{ background-color: #80808080; width: 22% ; padding: 0px; border: none; } .special{ background-color: #5c87c3cf; width: 22%; padding: 0px; border: none; } .special.equ{ background: url(http://i47.tinypic.com/2ni0ahd.png) no-repeat; background-size: cover;}   function donumber(e){ scr.value=scr.value+e.value } function clearscr() { scr.value=&#34;&#34; } function doequ() { temp= eval(scr.value) scr.value = temp.toPrecision(15) }         </description>
+    </item>
+    
+    <item>
       <title>loop animation</title>
       <link>https://lin68215.github.io/js/loop_anim.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

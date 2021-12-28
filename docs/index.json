@@ -1,4 +1,12 @@
 [
+{"uri": "https://lin68215.github.io/class/jsil.html","title": "jsil",
+	"tags": [],
+	"description": "",
+	"content": "\rconsole.log(\"我是主控台\")\rdocument.write (\"我是HTML文件\")\r\r後面是程式碼執行結果 \rconsole.log(\"我是主控台\")\rdocument.write (\"我是HTML文件\")\r\r什麼是javascript 函數 \rfunction print()\r{\rmessage = \"HELLO cat\"\rconsole.log(message)\r}\rfunction print1()\r{\rmessage = \"HELLO 1\"\rconsole.log(message)\r}\rfunction print2()\r{\rmessage = \"HELLO 2\"\rconsole.log(message)\r}\r\r\rfunction add1(arg1)\r{result = arg1+1\rreturn(result)\r}\r\r"},
+{"uri": "https://lin68215.github.io/js/cal.html","title": "cal",
+	"tags": [],
+	"description": "",
+	"content": " #scr{ width:93% ; background-color: #9e9e9ea8;; } .common{ background-color: #80808080; width: 22% ; padding: 0px; border: none; } .special{ background-color: #5c87c3cf; width: 22%; padding: 0px; border: none; } .special.equ{ background: url(http://i47.tinypic.com/2ni0ahd.png) no-repeat; background-size: cover;}   function donumber(e){ scr.value=scr.value+e.value } function clearscr() { scr.value=\"\" } function doequ() { temp= eval(scr.value) scr.value = temp.toPrecision(15) }         "},
 {"uri": "https://lin68215.github.io/js/loop_anim.html","title": "loop animation",
 	"tags": [],
 	"description": "",
